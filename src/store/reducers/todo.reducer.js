@@ -5,6 +5,7 @@ const Initial_State = {
 };
 
 export const todoreducers = (state = Initial_State, action) => {
+  // 
   switch (action.type) {
     case "ADD_DATA":
       console.log("action.payload", action.payload);
